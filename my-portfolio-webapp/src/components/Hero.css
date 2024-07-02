@@ -1,0 +1,39 @@
+.hero-section{
+    background: url('../assets/herobg.png') no-repeat;
+}
+.social-media-btn{
+    margin-top: 5%;
+    margin-right: 2%;
+    height: 3%;
+    width: 3%;
+}
+.social-media-btn:hover{
+    color: #dfd9ff;
+}
+
+@media (max-width:768px) {
+    .social-media-btn{
+        margin-top: 5%;
+        margin-right: 2%;
+        height: 8%;
+        width: 8%;
+    }
+    .hro-text-section{
+       margin-bottom: 10px;
+       margin-top: -500px;
+       margin-left: 30px;
+    }
+}
+@media (max-width:1024px) {
+    .social-media-btn{
+        margin-top: 5%;
+        margin-right: 2%;
+        height: 5%;
+        width: 5%;
+    }
+    .hro-text-section{
+       margin-bottom: 10px;
+       margin-top: -500px;
+       margin-left: 30px;
+    }
+}

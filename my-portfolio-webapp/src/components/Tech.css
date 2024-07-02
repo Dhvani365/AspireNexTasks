@@ -1,0 +1,121 @@
+.skill-section .education-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    list-style: none;
+    padding: 25px;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25)
+}
+.sm-title{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.skill-section .education-box li+li {
+    padding-top: 25px;
+    margin-top: 20px;
+    border-top: 1px dashed hsla(0,0%,100%,.2)
+}
+
+.skill-section .education-box span {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 16px;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 1
+}
+
+.skill-section .education-box h6 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff
+}
+
+.skill-section .education-box p {
+    margin: 0;
+    color: hsla(0,0%,100%,.8)
+}
+
+.skill-section .skill-box {
+    min-height: calc(100% - 73px); 
+    padding: 25px; 
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-lt:not(:first-child) {
+    margin-top: 30px;
+}
+
+.skill-lt h6 {
+    font-size: 16px;
+    margin: 0 0 8px;
+    color: #c9c9c9;
+    line-height: 28px;
+    font-weight: 600
+}
+
+.skill-lt .skill-bar {
+    position: relative;
+    background: #777777
+}
+
+.skill-lt .skill-bar .skill-bar-in {
+    width: 80px;
+    height: 10px;
+    position: relative;
+    transition: all .55s ease
+}
+
+.skill-lt .skill-bar .skill-bar-in span {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    background: #1c1d24;
+    padding: 2px 6px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600
+}
+
+.dark-theme .skill-lt .skill-bar .skill-bar-in span {
+    color: #ececec;
+    background: #fff
+}
+
+.skill-lt .skill-bar .skill-bar-in span:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+    border-left: 7px solid transparent;
+    border-top: 8px solid #82a1f5
+}
+
+.dark-theme .skill-lt .skill-bar .skill-bar-in span:after {
+    border-top: 8px solid #82a1f5
+}
+
+.skill-lt.md .skill-bar .skill-bar-in {
+    height: 8px
+}
+
+.skill-lt.lg .skill-bar .skill-bar-in {
+    height: 10px
+}
+
+.skill-lt.light .skill-bar {
+    background: rgba(19,20,22,.5)
+}
+
+@media (max-width: 768px) {
+    .tech-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
